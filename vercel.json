@@ -1,15 +1,9 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "Claude 1bill.html",
-      "use": "@vercel/static"
-    }
+    { "src": "*.html", "use": "@vercel/static" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/Claude 1bill.html"
-    }
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 } 
