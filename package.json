@@ -1,0 +1,12 @@
+{
+  "name": "cursor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Building project...\" && copy \"Claude 1bill.html\" \"dist\\index.html\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+} 
